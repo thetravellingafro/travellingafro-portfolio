@@ -87,19 +87,19 @@ export default function App() {
 
           <div className="stats">
             <div className="stat">
-              <h3>150K+</h3>
+              <h3>58.9K+</h3>
               <p>Followers</p>
             </div>
             <div className="stat">
-              <h3>5M+</h3>
+              <h3>100K+</h3>
               <p>Monthly Reach</p>
             </div>
             <div className="stat">
-              <h3>3–7%</h3>
+              <h3>5–7%</h3>
               <p>Engagement Rate</p>
             </div>
             <div className="stat">
-              <h3>50+</h3>
+              <h3>10+</h3>
               <p>Brand Collaborations</p>
             </div>
           </div>
