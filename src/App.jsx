@@ -37,7 +37,7 @@ export default function App() {
           </p>
         </section>
 
-        {/* WORK / VIDEOS */}
+        {/* WORK */}
         <section id="work" className="section">
           <h2>Featured Work</h2>
           <div className="grid">
@@ -73,8 +73,40 @@ export default function App() {
           </div>
         </section>
 
+        {/* INSTAGRAM + STATS */}
+        <section className="section muted instagram">
+          <h2>Instagram</h2>
+
+          <div className="instagram-wrapper">
+            <iframe
+              src="https://www.instagram.com/thetravellingafro/embed"
+              title="The Travelling Afro Instagram"
+              loading="lazy"
+            />
+          </div>
+
+          <div className="stats">
+            <div className="stat">
+              <h3>150K+</h3>
+              <p>Followers</p>
+            </div>
+            <div className="stat">
+              <h3>5M+</h3>
+              <p>Monthly Reach</p>
+            </div>
+            <div className="stat">
+              <h3>3–7%</h3>
+              <p>Engagement Rate</p>
+            </div>
+            <div className="stat">
+              <h3>50+</h3>
+              <p>Brand Collaborations</p>
+            </div>
+          </div>
+        </section>
+
         {/* BRANDS */}
-        <section id="brands" className="section muted">
+        <section id="brands" className="section">
           <h2>Brand Fit</h2>
           <ul className="brands">
             <li>Hotels & Resorts</li>
