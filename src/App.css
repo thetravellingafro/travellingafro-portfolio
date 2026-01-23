@@ -36,9 +36,9 @@ body {
 /* HERO */
 .hero {
   padding: 6rem 2rem;
-  width: 100%;       /* full width */
-  max-width: 100%;   /* remove max-width restriction */
-  margin: 0 auto;    /* keep centered content optional */
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .hero h1 {
@@ -48,8 +48,8 @@ body {
 
 .hero p {
   font-size: 1.2rem;
-  max-width: 90%;    /* limit text width for readability */
-  margin: 1rem auto; /* center text horizontally */
+  max-width: 90%;
+  margin: 1rem auto;
 }
 
 .cta {
@@ -65,8 +65,8 @@ body {
 .section {
   padding: 4rem 2rem;
   width: 100%;
-  max-width: 100%;   /* remove max-width restriction */
-  margin: 0 auto;    /* center optional */
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .section h2 {
@@ -92,6 +92,40 @@ body {
 
 .card p {
   margin-top: 0.5rem;
+}
+
+/* INSTAGRAM */
+.instagram {
+  text-align: center;
+}
+
+.instagram-wrapper {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.instagram iframe {
+  width: 100%;
+  height: 480px;
+  border: none;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stat p {
+  margin-top: 0.25rem;
+  color: #666;
+  font-size: 0.95rem;
 }
 
 /* BRANDS */
