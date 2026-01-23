@@ -21,7 +21,9 @@ export default function App() {
             I create immersive travel content that helps brands connect with
             global, culture-curious audiences.
           </p>
-          <a href="#contact" className="cta">Work with me</a>
+          <a href="#contact" className="cta">
+            Work with me
+          </a>
         </section>
 
         {/* ABOUT */}
@@ -41,8 +43,9 @@ export default function App() {
           <div className="grid">
             <div className="card">
               <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID"
+                src="https://www.youtube.com/embed/nGBsjaCoxM0"
                 title="Travel Video 1"
+                loading="lazy"
                 allowFullScreen
               />
               <p>Destination storytelling — short-form video</p>
@@ -50,8 +53,9 @@ export default function App() {
 
             <div className="card">
               <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID"
+                src="https://www.youtube.com/embed/SdpM1e56qkc"
                 title="Travel Video 2"
+                loading="lazy"
                 allowFullScreen
               />
               <p>Hotel & experience feature</p>
@@ -59,8 +63,9 @@ export default function App() {
 
             <div className="card">
               <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID"
+                src="https://www.youtube.com/embed/GHqk_JeeGyc"
                 title="Travel Video 3"
+                loading="lazy"
                 allowFullScreen
               />
               <p>Cultural exploration & lifestyle</p>
@@ -82,11 +87,9 @@ export default function App() {
         {/* CONTACT */}
         <section id="contact" className="section">
           <h2>Let’s Collaborate</h2>
-          <p>
-            For partnerships, media kits, or campaign inquiries:
-          </p>
-          <a className="email" href="mailto:youremail@email.com">
-            youremail@email.com
+          <p>For partnerships, media kits, or campaign inquiries:</p>
+          <a className="email" href="mailto:thetravellingafro@gmail.com">
+            thetravellingafro@gmail.com
           </a>
         </section>
       </main>
