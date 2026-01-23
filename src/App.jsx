@@ -48,12 +48,12 @@ export default function App() {
                 loading="lazy"
                 allowFullScreen
               />
-              <p>Destination storytelling — short-form video</p>
+              <p>Destination storytelling — Product UGC</p>
             </div>
 
             <div className="card">
               <iframe
-                src="https://www.youtube.com/embed/SdpM1e56qkc"
+                src="https://www.youtube.com/embed/7LKZqGIB5I4"
                 title="Travel Video 2"
                 loading="lazy"
                 allowFullScreen
