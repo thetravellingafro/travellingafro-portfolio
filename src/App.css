@@ -7,6 +7,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   color: #111;
   background: #fff;
+  width: 100%;
 }
 
 /* NAV */
@@ -35,8 +36,9 @@ body {
 /* HERO */
 .hero {
   padding: 6rem 2rem;
-  max-width: 900px;
-  margin: auto;
+  width: 100%;       /* full width */
+  max-width: 100%;   /* remove max-width restriction */
+  margin: 0 auto;    /* keep centered content optional */
 }
 
 .hero h1 {
@@ -46,7 +48,8 @@ body {
 
 .hero p {
   font-size: 1.2rem;
-  max-width: 600px;
+  max-width: 90%;    /* limit text width for readability */
+  margin: 1rem auto; /* center text horizontally */
 }
 
 .cta {
@@ -61,8 +64,9 @@ body {
 /* SECTIONS */
 .section {
   padding: 4rem 2rem;
-  max-width: 1000px;
-  margin: auto;
+  width: 100%;
+  max-width: 100%;   /* remove max-width restriction */
+  margin: 0 auto;    /* center optional */
 }
 
 .section h2 {
