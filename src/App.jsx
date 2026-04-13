@@ -87,7 +87,7 @@ export default function App() {
 
           <div className="stats">
             <div className="stat">
-              <h3>58.9K+</h3>
+              <h3>58.4K+</h3>
               <p>Followers</p>
             </div>
             <div className="stat">
